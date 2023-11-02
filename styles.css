@@ -80,6 +80,25 @@ main {
   font-weight: bold;
 }
 
+.cart {
+  margin-block-end: var(--spacing);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cart tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.cart th,
+.cart td {
+  padding: calc(var(--spacing) / 2);
+  text-align: left;
+}
+
+.cart tfoot {
+  font-weight: bold;
+}
 .add {
   display: flex;
   flex-wrap: wrap;
